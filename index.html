@@ -1,0 +1,15 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<script src="http://gaoyh.corp.cimu.com:8700/faye/faye.js"></script>
+</head>
+<body>
+<script type="text/javascript">
+  var client = new Faye.Client("http://gaoyh.corp.cimu.com:8700/faye")
+  var sub = client.subscribe('/ninja',function(msg){
+    console.log(msg)
+  })
+  window.post_message={'subscription}
+</script>
+</body>
+</html>

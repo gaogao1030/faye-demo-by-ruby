@@ -1,0 +1,6 @@
+---
+pid: tmp/pids/thin.pid
+log: log/thin.log
+environment: procution
+port: 8700
+address: 0.0.0.0
