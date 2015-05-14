@@ -1,7 +1,9 @@
 get started
-bundle install
-thin start -R config/config.ru -c thin.yml
 
-client.publish("/ninja",{text:"hentai",ext:{authToken:"hentai"}})
+1.bundle install
 
-you will look Object{text:"hentai"} in console by chrome
+2.thin start -R config/config.ru -c thin.yml
+
+3.you can type "client.publish("/ninja",{text:"hentai",ext:{authToken:"hentai"}})" in chrome console
+
+you will look Object{text:"hentai"} in console
